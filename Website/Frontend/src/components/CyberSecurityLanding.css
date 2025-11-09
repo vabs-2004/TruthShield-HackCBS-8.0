@@ -120,8 +120,29 @@
     border-radius: 10px;
     box-shadow: 0 10px 30px red;
   }
-  
-  
+
+  .logout-button {
+  background-color: #e63946;       /* Soft red tone */
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #d62828;       /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+.logout-button:active {
+  background-color: #b91c1c;       /* Slightly deeper tone on click */
+  transform: scale(0.97);
+}
+
   /* Responsive Design */
   @media (max-width: 1024px) {
     .content {

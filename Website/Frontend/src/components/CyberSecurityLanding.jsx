@@ -36,6 +36,7 @@ export default function CyberSecurityLanding() {
           {email ? (
             <>
               <span className="welcome-user">👋 Hi, {email}</span>
+              <button className="logout-button" onClick={() => { localStorage.clear(); window.location.reload(); }}>Logout</button>
               
             </>
           ) : (
