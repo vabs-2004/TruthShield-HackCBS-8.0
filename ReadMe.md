@@ -28,7 +28,7 @@ The primary technologies used include **Gemini**, **MongoDB**, **JavaScript**, *
 ## Dependencies
 ```bash
 MongoDB: ^0.41.0
-Gemini>=0.5.0
+Gemini: 0.5.0
 @tailwindcss/vite: ^4.0.17  
 axios: ^1.8.4  
 class-variance-authority: ^0.7.1  
@@ -47,7 +47,7 @@ uuid: ^11.1.0
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 requests==2.31.0
-groq>=0.4.0
+groq: 0.4.0
 python-dotenv==1.0.0
 Pillow==10.1.0
 numpy==1.24.3
