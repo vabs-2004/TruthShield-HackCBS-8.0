@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News & Media Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Enter the Text</h2>
+    <input type="text" class="text-input">
+    <button id="extractButtontext"><div id="loader1"></div>Detect Text</button>
+    <p id="extracted-text1">Click the button to Detect Fake News.</p>
+
+    <h2>Upload an Image</h2>
+    <input type="file" id="fileInput" accept="image/*">
+    <button id="extractButtonimage"><div id="loader2"></div>Detect Image</button>
+    <p id="extracted-text2">Click the button to Detect Fake News.</p>
+
+    <h2>Paste Video URL</h2>
+    <input type="text" class="input-url">
+    <button id="extractButtonvideo" class="btn"><div id="loader3"></div>Detect Deepfake</button>
+    <p id="extracted-text3">Click the button to Detect Deepfake Video.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
